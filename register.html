@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Registration</h1>
+    </header>
+    <div class="wrapper">
+        <!--Nav tab-->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                
+                <li><a href="home.html"></i>Registered Users</a></li>  
+            </ul>
+        </nav>
+        <!--Top Container-->
+        <section class="top-container">
+            <header class="showcase">
+                <h1>If you are new here:</h1>    
+                <p>Register below to create Login to Enter!</p>
+            </header>
+            <div class="top-box top-box-a">
+                
+                <p class="price">Login</p>
+                <a href="index.html" class="btn">Travel to Login</a>
+            </div>
+            <div class="top-box top-box-b">
+                
+                <p class="price">Members</p>
+                <a href="home.html" class="btn">Travel to Registered List</a>
+            </div>
+
+        </section>
+
+        <!--boxes sections-->
+        <section class="boxes">
+            <div class="box">
+                <h3>Email </h3>
+                <p>Must have a valid email to register!</p>
+
+            </div>
+            <div class="box">
+                <h3>Create Strong Password</h3>
+                <li>
+                    8 or more characters
+                </li>
+                <li>
+                    Upper and Lowercase
+                </li>
+                <li>
+                    Must include a number
+                </li>
+
+            </div>
+            <div class="box">
+                <h3>Accepted Payments</h3>
+                <img src="img/credit.png" width="50">
+                <img src="img/debit.png" width="50">
+                <img src="img/paypal.png" width="50">
+                
+
+            </div>
+            <div class="box">
+                <h3>Pick a Color</h3>
+                <p>Please select your favorite color!</p>
+                <img src="img/color-wheel.jpg" width="150">
+
+            </div>
+        </section>
+        <!--Info section-->
+        <section class="info">
+            <form class="registrationForm" method="get" accept="#">
+                <h1>Sign-Up</h1>
+                <label for="email">Email:</label><br>
+                <input class="input" type="email" id="txtEmail" placeholder="Email"><br><br>
+
+                <label>Password</label><br>
+                <input class= "input" type="password" id="txtPassword" placeholder="*******"><br><br>
+
+                <label>First Name:</label><br>
+                <input class="input" type="text" id="txtFirst" placeholder="First Name"><br><br>
+
+                <label>Last Name:</label><br>
+                <input type="text" id="txtLast" placeholder="Last Name"><br><br>
+
+                <label>Age:</label><br>
+                <input type="number" id="txtAge" placeholder="Age"><br><br>
+
+                <label>Address:</label><br>
+                <input type="text" id="txtAddress" placeholder="123 Street"><br><br>
+
+                <label>Phone Number:</label>
+                <input type="tel" id="txtPhone" placeholder="555-555-5555">
+
+                <label>Payment</label>
+                <select id="selPayment">
+                   <option value="paypal">PayPal</option>
+                   <option value="credit">Credit Card</option>
+                   <option value="debit">Debit Card</option>
+                </select>
+
+                <label class="color">Color:</label>
+                <input type="color" id="txtColor"> 
+            </form>
+            <button id="btnRegister" class="btn btn-primary">Register</button>
+            
+        </section>
+
+        <!--Portfolio Section-->
+        <section class="portfolio">
+            <img src="https://source.unsplash.com/random/200x200" alt="">
+            <img src="https://source.unsplash.com/random/201x200" alt="">
+            <img src="https://source.unsplash.com/random/202x200" alt="">
+            <img src="https://source.unsplash.com/random/203x200" alt="">
+            <img src="https://source.unsplash.com/random/204x200" alt="">
+            <img src="https://source.unsplash.com/random/205x200" alt="">
+            <img src="https://source.unsplash.com/random/206x200" alt="">
+            <img src="https://source.unsplash.com/random/207x200" alt="">
+            <img src="https://source.unsplash.com/random/208x200" alt="">
+            <img src="https://source.unsplash.com/random/209x200" alt="">
+            <img src="https://source.unsplash.com/random/210x200" alt="">
+            <img src="https://source.unsplash.com/random/211x200" alt="">
+            <img src="https://source.unsplash.com/random/212x200" alt="">
+            <img src="https://source.unsplash.com/random/213x200" alt="">
+            <img src="https://source.unsplash.com/random/214x200" alt="">
+            <img src="https://source.unsplash.com/random/215x200" alt="">
+            
+        </section>
+        <!--Footer-->
+        <footer>
+            <p>April Carr Copyright 2022</p>
+        </footer>
+
+    </div>
+    <!--Wrapper Ends-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/storeManager.js"></script>
+    <script src="script/register.js"></script>
+    
+</body>
+</html>
